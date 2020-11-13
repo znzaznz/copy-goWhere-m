@@ -1,0 +1,34 @@
+.preferentialTicket{
+    margin: 4px 10px 0;
+}
+.preferentialTicket > h1{
+    margin: 0 6px;
+    font-size: 18px;
+}
+.preferentialTicket > .vacationType{
+    margin: 8px 0 5px;
+}
+.preferentialTicket > .vacationType > a{
+    display: inline-block;
+    font-size: .14rem;
+    padding: 5px 12px;
+    color: #666666;
+    border: 1px solid #D7D7D7;
+    border-radius: 3px;
+
+}
+.preferentialTicket  > .vacationType > .clicked{
+    background-color: #17c0c8;
+    color: white;
+    border-color: #17c0c8;
+}
+.vacationShow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.vacationShow > ul > li{
+    display: inline-block;
+    width: 49%;
+}

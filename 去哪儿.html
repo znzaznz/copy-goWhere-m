@@ -6,76 +6,12 @@
           content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,usr-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>去哪儿</title>
-    <style type="text/css">
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        a{
-            text-decoration: none;
-        }
-        img{
-            max-width: 100%;
-        }
-        .hm-touch-header{
-            margin: 22px 8px 0;
-        }
-        .hm-touch-header  a {
-            font-size: 12px;
-            color: black;
-            display: flex;
-            flex-direction: column;
-            width: 68px;
-            justify-content: center;
-            align-items: center;
-        }
-        .hm-touch-header  img{
-            display: inline-block;
-            vertical-align: top;
-        }
-        .hm-touch-header  span{
-            display: inline-block;
-        }
-        .mode-header{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 14px;
-        }
-        .mode-header img{
-            height: 49px;
-            width: 49px;
-            margin-bottom: 6px;
-        }
-        .tickets-header{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 14px;
-        }
-        .tickets-header img{
-            height: 28px;
-            width: 28px;
-            margin-bottom: 6px;
-        }
-        .sundries-header{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .sundries-header a{
-            margin-bottom: 14px;
-        }
-        .sundries-header img{
-            height: 28px;
-            width: 28px;
-            margin-bottom: 6px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/hm-touch-header.css">
+    <link rel="stylesheet" href="./css/preferentialTicket.css">
 </head>
 <body>
+<!--移动端的开头-->
     <div class="hm-touch-header">
         <div class="mode-header">
             <a href="javascript:;">
@@ -114,6 +50,34 @@
             <a href="javascript:;"><img src="./images/sundries/sun.png" alt="图片"><span>周边短途</span></a>
         </div>
     </div>
-
+<!--    当前做特惠度假-->
+    <div class="preferentialTicket">
+        <h1>特惠度假</h1>
+        <div class="vacationType">
+            <a class="clicked" href="javascript:;">当季热门度假</a>
+            <a href="javascript:;">今日特惠度假</a>
+        </div>
+        <div class="vacationShow">
+            <ul>
+                <li>
+                    <a href="#"><img src="./images/重庆.jpg" alt="度假的图片"></a>
+                    <div class="intruduceMessage">
+                        <span>包含往返飞机票+6晚住宿</span>
+                        <span>￥3130</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/杭州.jpg" alt="度假的图片"></a>
+                    <div>
+                        <span>含往返飞机票(含税)+</span>
+                    </div>
+                </li>
+                <li><a href="#"><img src="./images/北京.jpg" alt="度假的图片"></a></li>
+                <li><a href="#"><img src="./images/丽江.jpg" alt="度假的图片"></a></li>
+            </ul>
+        </div>
+        <button>更多特惠度假>
+        </button>
+    </div>
 </body>
 </html>
