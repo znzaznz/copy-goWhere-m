@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168fa1eb-562e-4138-88fc-eef75c10b1c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/hm-touch-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/preferentialTicket.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/丽江.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/北京.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/杭州.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/重庆.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/preferentialTicket.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/preferentialTicket.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/去哪儿.html" beforeDir="false" afterPath="$PROJECT_DIR$/去哪儿.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +51,19 @@
       <updated>1605180747605</updated>
       <workItem from="1605180748637" duration="6843000" />
       <workItem from="1605189852415" duration="39000" />
-      <workItem from="1605243332368" duration="3424000" />
+      <workItem from="1605243332368" duration="4162000" />
+      <workItem from="1605263666366" duration="128000" />
+      <workItem from="1605533620811" duration="2748000" />
+      <workItem from="1605568936720" duration="2668000" />
     </task>
+    <task id="LOCAL-00001" summary="完成特惠度假和标签的特效">
+      <created>1605246850911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605246850911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,11 +71,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="完成特惠度假和标签的特效" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成特惠度假和标签的特效" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="655" y="285" key="FileChooserDialogImpl" timestamp="1605189870791">
+    <state x="984" y="103" key="CommitChangelistDialog2" timestamp="1605246849993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="285" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605189870791" />
+    <state x="984" y="103" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605246849993" />
+    <state x="655" y="285" key="FileChooserDialogImpl" timestamp="1605263793513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="285" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605263793513" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1605534598980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605534598980" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605569440159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605569440159" />
   </component>
 </project>

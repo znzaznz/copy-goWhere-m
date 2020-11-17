@@ -11,7 +11,7 @@
 .preferentialTicket > .vacationType > a{
     display: inline-block;
     font-size: .14rem;
-    padding: 5px 12px;
+    padding: 6px 12px;
     color: #666666;
     border: 1px solid #D7D7D7;
     border-radius: 3px;
@@ -28,7 +28,62 @@
     flex-wrap: wrap;
     align-items: center;
 }
-.vacationShow > ul > li{
-    display: inline-block;
+.vacationShow  li{
     width: 49%;
+    position: relative;
+}
+.vacationShow li a{
+    width: 100%;
+}
+.vacationShow li a img{
+    vertical-align: bottom;
+    width: 100%;
+    height: 97px;
+    border-radius: 6px;
+}
+.vacationShow li a .vacationShowMessage{
+    padding:2px 4px ;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.vacationShow li a .price{
+    margin-bottom: 4px;
+}
+.vacationShow li a .price span{
+    font-weight: bold;
+    color: #FF7400;
+    font-size: 16px;
+}
+.vacationShow li .convert{
+    /*padding: 2px 22px;*/
+    font-size: 13px;
+    position: absolute;
+    top: 97px;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    background-color:  rgba(0,0,0,0.7);
+    padding: 2px 22px;
+}
+.vacationShow li .convert p{
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+}
+.preferentialTicket .buttonContain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+.preferentialTicket .buttonContain button{
+    border: 1px solid #00d0d4;
+    background-color: transparent;
+    outline: none;
+    padding: 14px 116px;
+    border-radius: 4px;
 }
